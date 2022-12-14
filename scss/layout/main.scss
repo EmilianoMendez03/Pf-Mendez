@@ -1,0 +1,377 @@
+                /* INDEX */
+    
+
+
+
+
+
+                .h1_index{
+     
+                    font-family: 'Nunito', sans-serif;
+                    font-weight:800;
+                    font-style: italic;
+                    font-size: 64px;
+                    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); 
+                    text-align: center;
+                }
+                .info{
+                        list-style-type:disc;
+                        font-size: 45px;
+                        font-family: 'Nunito', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                    }
+             
+                .florida{
+                    width: 100%;
+                    height: 100%;
+                        border-radius: 100%;
+                        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7); 
+                        z-index: 3;
+                        transition: all 400ms ease;
+                        border:solid 1px;
+                        .florida:hover{
+                            box-shadow: 10px 10px 30px rgba(0, 0, 0, 1.0);
+                        transform: translateY(-5%);
+                        }
+                    }
+             
+            
+                .bowling{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 100%;
+                        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7); 
+                        z-index: 2;
+                        transition: all 400ms ease;
+                        border:solid 1px;
+                        .bowling:hover{
+                            box-shadow: 10px 10px 30px rgba(0, 0, 0, 1.0);
+                        transform: translateY(-5%);
+                        }
+                    }
+             
+            
+                .tom{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 100%;
+                        transition: all 400ms ease;
+                        border:solid 1px;
+                        .tom:hover{
+                            box-shadow: 10px 10px 30px rgba(0, 0, 0, 1.0);
+                        transform: translateY(-5%);
+                        }
+                    }
+                                                                                     /* SOBRE NOSOTROS */
+  
+            
+             
+                                  
+        .Titulo_S {
+            margin:100px;
+            font-family: 'Nunito', sans-serif;
+            font-weight:800;
+            font-style: italic;
+            font-size: 64px;
+            text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); 
+            text-align: center;
+           }
+           .Li_SN{
+            background-color: 00A6FB;
+            border-radius: 40px;
+            width: 600px;
+            border: solid 2px black;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7); 
+            font-size: 24px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            font-style: italic;
+            list-style-type: disc;
+            color: FFFFFC;
+            margin: 30px;
+            width: 60%;
+            text-align: center;
+            padding: 40px;
+         }
+           
+                       
+        
+                                                              /* PRODUCTOS */
+            .container_h1{
+                text-align-last: center;
+                margin-top: 5%;
+                .h1_productos{
+                    margin:10px;
+                    font-family: 'Nunito', sans-serif;
+                    font-weight:800;
+                    font-style: italic;
+                    font-size: 64px;
+                    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); 
+                }
+            }
+
+            
+
+         
+            .card-product{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                background-color: 00A6FB;
+                height:100%;
+                width: 90%;
+                margin:20px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                border-radius: 40px;
+                border:solid 2px black;
+                box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.5); 
+                .img_inflable{
+                    height: 90%;
+                    width: 50%;
+                    border-radius: 40px;
+                    margin: 10px;
+                    border:solid 1px black
+                }
+                .text_product{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 30px;
+                    margin-left: 10px;
+                    font-size: 15px;
+                }
+            }
+                                                               /* Eventos */
+               
+                .container_h1_eventos{
+                    text-align-last: center;
+                    margin-top: 5%;
+                    .eventos{
+                        margin:10px;
+                        font-family: 'Nunito', sans-serif;
+                        font-weight:800;
+                        font-style: italic;
+                        font-size: 64px;
+                        text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); 
+                    }
+                }
+                .carousel{
+                    margin: 2%; 
+                .img-carousel-custom{
+                    height: 600px;
+                    object-fit: cover;
+                    width: 700px;
+                    }
+                }
+
+    
+                                                                                /* Contacto */
+                    .container_titulo_contacto{ 
+                        text-align-last: center;
+                        margin-top: 5%;
+                        .titulo_contacto{
+                            margin:10px;
+                            margin-bottom: 50px;
+                            font-family: 'Nunito', sans-serif;
+                            font-weight:800;
+                            font-style: italic;
+                            font-size: 64px;
+                            text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); 
+                        }
+                    }
+              
+                 
+                        .container_whatsapp{                              
+                            margin-left: 300px;
+                            font-size: 32px;
+                            font-family: 'Roboto', sans-serif;
+                            font-style: italic;
+                            font-weight: 900;
+                            justify-content: center;                          
+                            width: 80%;                      
+                            align-items: center;
+                            .whatsapp{
+                                height: 100px;
+                                width: 100px;
+                                margin: 20px;
+                            }
+                        }
+                        .container_instagram{  
+                          
+                            margin-left: 300px;
+                            font-size: 32px;
+                            font-family: 'Roboto', sans-serif;
+                            font-style: italic;
+                            font-weight: 900;
+                            justify-content: center;                         
+                            width: 80%;                          
+                            align-items: center;
+                            .instagram{
+                                height: 100px;
+                                width: 100px;
+                                margin: 20px;
+                            }
+                        }
+                        .container_facebook{
+                           
+                            margin-left: 300px;
+                            font-size: 32px;
+                            font-family: 'Roboto', sans-serif;
+                            font-style: italic;
+                            font-weight: 900;
+                            justify-content: center;                          
+                            width: 80%;
+                            align-items: center;
+                            .facebook{
+                                height: 100px;
+                                width: 100px;
+                                margin: 20px;
+                            }
+                        }
+                        .container_gmail{
+                            
+                            margin-left: 300px;
+                            font-size: 32px;
+                            font-family: 'Roboto', sans-serif;
+                            font-style: italic;
+                            font-weight: 900;
+                            justify-content: center;                        
+                            width: 80%;
+                            align-items: center;                           
+                            .gmail{
+                                height: 120px;
+                                width: 120px;
+                                margin: 10px;
+                            }
+                        }
+                   
+                    
+                   
+                    @media screen and (max-width:768px){
+           
+                    
+                       
+                    //.Index mobile
+                
+                    
+                             
+                                .h1_index{
+                                    margin-top: 50px;
+                                    font-size: 40px;
+                                    text-align:center ;
+                                }
+                                .info{
+                                    font-size: 30px;
+                                }
+                               
+                                              /* SOBRE NOSOTROS MOBILE */
+    
+             
+           
+                    .Titulo_S {
+                        margin: 50px 0 0 0  ;
+                        font-size: 40px;
+                        text-align:center ;
+                        }
+                    .Li_SN{
+                        font-size:15px ;
+                        width: auto; 
+                        }                                               
+                
+                                                                                        /* PRODUCTOS MOBILE*/
+
+                .container_h1{margin: 50px 0 0 0 ;
+                    .h1_productos{
+                        font-size: 40px;
+                        text-align:center;
+                    }
+                }                        
+
+                                                                                         /* EVENTOS MOBILE */
+                .container_h1_eventos{
+                    margin: 50px 0 0 0 ;
+                .eventos{
+                    font-size: 40px;
+                    text-align:center;
+                        }
+                    }
+                    .carousel{
+                        .img-carousel-custom{
+                            height: auto;
+                            object-fit: cover;
+                            width: auto;
+                            }
+                        }
+                                                                                /* CONTACTO MOBILE */
+
+                    .container_titulo_contacto{
+                        margin-top: 100px;
+                    .titulo_contacto{
+                        font-size: 40px;
+                        text-align:center;
+                    }
+                     }
+
+                  
+                        .container_whatsapp{
+                            margin: 0;
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            font-size: 25px;
+                            text-align: center;
+                            .whatsapp{
+                                height: 80px;
+                                width: 80px;
+                            }
+                        }
+                        .container_instagram{
+                            margin: 0;
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            font-size: 25px;
+                            text-align: center;
+                            .instagram{
+                                height: 80px;
+                                width: 80px;
+                            }
+                        }
+                  
+                        .container_facebook{
+                            margin: 0;
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            font-size: 25px;
+                            text-align: center;
+                            .facebook{
+                                height: 80px;
+                                width: 80px;
+                            }
+                        }
+                        .container_gmail{
+                            margin: 0;
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            font-size: 25px;
+                            text-align: center;
+                        .gmail{
+                            height: 80px;
+                            width: 80px;
+                           
+                            
+                        }
+                    }
+                    
+        
+            }
+            
+    
+           
+    
+                    
+    
